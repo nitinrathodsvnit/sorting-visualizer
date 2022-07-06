@@ -12,7 +12,7 @@ export function changeArrayHelper(
   setIsSorted(false);
   const arr = [];
   for (let i = 0; i < size; i++) {
-    arr.push(randomNoGenerator(5, 630));
+    arr.push(randomNoGenerator(5, 400));
   }
   setArray(arr);
   setCopiedArray([...arr]);
